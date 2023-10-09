@@ -6,8 +6,8 @@
 int main(void)
 {
 int i;
-for (i = 1; i <= 10; i++)
-putchar (i + '0');
+for (i = 1; i < 10; i++)
+putchar ('0' + i);
 putchar('\n');
 return (0);
 }
