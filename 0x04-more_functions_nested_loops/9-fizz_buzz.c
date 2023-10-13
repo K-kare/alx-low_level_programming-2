@@ -2,12 +2,12 @@
 #include <stdio.h>
 /**
 *main - prints a fizz buzz program
-*return: always 0 success
+*Return: always 0 success
 */
 int main(void)
 {
 int x;
-for (x =1; x <= 100; x++)
+for (x = 1; x <= 100; x++)
 {
 if ((x % 3 == 0) && (x % 5 == 0))
 {
@@ -17,7 +17,7 @@ else if (x % 3 == 0)
 {
 printf("Fizz");
 }
-else if(x % 5 == 0)
+else if (x % 5 == 0)
 {
 printf("Buzz");
 }
@@ -25,7 +25,7 @@ else
 {
 printf("%d", x);
 }
-if(x != 100)
+if (x != 100)
 {
 printf(" ");
 }
