@@ -1,1 +1,1 @@
-create_static_lib.sh
+Without libraries what have we?
